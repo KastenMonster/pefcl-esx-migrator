@@ -1,6 +1,6 @@
 <h1 align="center">pefcl-esx-migrator</h1>
 
-**Start this ressource if you want to migrate ESX users. DONT PUT THIS IN YOUR servre.cfg!!**
+**Start this ressource if you want to migrate ESX users to pefcl_accounts. DONT PUT THIS IN YOUR servre.cfg!!**
 
 ## Config:
 in `server.lua`
