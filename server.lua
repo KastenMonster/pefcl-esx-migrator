@@ -3,8 +3,8 @@ local Spam = false
 
 Citizen.CreateThread(function()
     print('===================================')
-    print('^2Starting Migration...')
-    print('^5getting all Values from ^1users')
+    print('^2starting migration...')
+    print('^5getting all values from ^1users')
     local users = MySQL.query.await('SELECT identifier, accounts, firstname, lastname FROM users', {})
     print('^2creating pefcl accounts...')
     local deadaccounts = 0
@@ -22,15 +22,15 @@ Citizen.CreateThread(function()
                 end
             else
                 if Spam then
-                    print(string.format('^1 Skiped User due to missing Value'))
+                    print(string.format('^1 Skiped user due to missing value'))
                 end
                 deadaccounts = deadaccounts + 1
             end
         end
     end
-    print(string.format('^2found ^1 %s ^2 dead Accounts (some Values where nil)',deadaccounts))
+    print(string.format('^2found ^1 %s ^2 dead accounts (some values where nil)',deadaccounts))
     Wait(5000)
-    print('^2Start Updating Balance for pefcl_accounts...')
+    print('^2Start updating balance for pefcl_accounts...')
     for i=1,#users do
         if users[i] then
             if users[i].identifier and users[i].firstname and users[i].lastname then
