@@ -8,7 +8,7 @@ you can set `Spam = true`
 >*will print every action for each user*
 
 ## Usage:
-0. Maybe you want to kick all users so you have a empty server
+0. Maybe you want to kick all users so you have an empty server
 
 1. Make sure you have a **clear** pefcl_accounts table with no user entrys
 
