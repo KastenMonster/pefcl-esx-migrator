@@ -5,6 +5,5 @@
 ## Usage:
 1. Make sure you have a clear pefcl_accounts table
 
-2. ```lua
-   start pefcl-esx-migrator
-```
+2. put this in the console `start pefcl-esx-migrator`
+   
