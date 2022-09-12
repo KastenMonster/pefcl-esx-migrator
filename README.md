@@ -8,7 +8,11 @@ you can set `Spam = true`
 >*will print every action for each user*
 
 ## Usage:
+0. Maybe you want to kick all users so you have a empty server
+
 1. Make sure you have a **clear** pefcl_accounts table with no user entrys
+
+1.5 put `refresh` if you put this while the server is online
 
 2. put this in the console `start pefcl-esx-migrator`
 
