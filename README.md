@@ -8,15 +8,17 @@ you can set `Spam = true`
 >*will print every action for each user*
 
 ## Usage:
-0. Maybe you want to kick all users so you have an empty server
+1. Maybe you want to kick all users so you have an empty server
 
-1. Make sure you have a **clear** pefcl_accounts table with no user entrys
+2. Have `pecfl` started
+
+3. Make sure you have a **clear** pefcl_accounts table with no user entrys
 
 2. type `refresh` into the console
 
-3. put this in the console `start pefcl-esx-migrator`
+4. put this in the console `start pefcl-esx-migrator`
 
-4. wait... Updates will be send during the migration (500 users = 100s)
+5. wait... Updates will be send during the migration (500 users = 100s)
    
 ## Disclaimer:
 **I'M NOT RESSBONSIBLE TO ANY DAMGE DONE TO ANY DATABASE OR SERVER**
