@@ -5,7 +5,7 @@
 ## Config:
 in `server.lua`
 you can set `Spam = true` 
-*will print every action for each user*
+\n *will print every action for each user*
 
 ## Usage:
 1. Make sure you have a **clear** pefcl_accounts table
