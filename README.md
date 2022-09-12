@@ -8,7 +8,7 @@ you can set `Spam = true`
 >*will print every action for each user*
 
 ## Usage:
-1. Make sure you have a **clear** pefcl_accounts table
+1. Make sure you have a **clear** pefcl_accounts table with no user entrys
 
 2. put this in the console `start pefcl-esx-migrator`
 
