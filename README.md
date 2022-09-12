@@ -12,7 +12,7 @@ you can set `Spam = true`
 
 1. Make sure you have a **clear** pefcl_accounts table with no user entrys
 
-2. put `refresh` if you put this while the server is online
+2. type `refresh` into the console
 
 3. put this in the console `start pefcl-esx-migrator`
 
