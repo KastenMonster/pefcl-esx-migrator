@@ -14,3 +14,5 @@ you can set `Spam = true`
 
 3. wait... Updates will be send during the migration (500 users = 100s)
    
+## Disclaimer:
+**I'M NOT RESSBONSIBLE TO ANY DAMGE DONE TO ANY TABLE OR SERVER**
