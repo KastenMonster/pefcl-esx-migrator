@@ -12,11 +12,11 @@ you can set `Spam = true`
 
 1. Make sure you have a **clear** pefcl_accounts table with no user entrys
 
-1.5 put `refresh` if you put this while the server is online
+2 put `refresh` if you put this while the server is online
 
-2. put this in the console `start pefcl-esx-migrator`
+3. put this in the console `start pefcl-esx-migrator`
 
-3. wait... Updates will be send during the migration (500 users = 100s)
+4. wait... Updates will be send during the migration (500 users = 100s)
    
 ## Disclaimer:
 **I'M NOT RESSBONSIBLE TO ANY DAMGE DONE TO ANY TABLE OR SERVER**
